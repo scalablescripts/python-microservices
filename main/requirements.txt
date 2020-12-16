@@ -1,0 +1,9 @@
+Flask==1.1.2
+Flask-SQLAlchemy==2.4.4
+SQLAlchemy==1.3.20
+Flask-Migrate==2.5.3
+Flask-Script==2.0.6
+Flask-Cors==3.0.9
+requests==2.25.0
+mysqlclient==2.0.1
+pika==1.1.0
