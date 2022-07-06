@@ -13,6 +13,9 @@ CORS(app)
 
 db = SQLAlchemy(app)
 
+migrate = Migrate()
+migrate.init_app(app, db)
+
 
 @dataclass
 class Product(db.Model):
